@@ -21,8 +21,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-repo_name: jindaxiang/msscore
-repo_url: https://github.com/jindaxiang/msscore
+repo_name: albertandking/msscore
+repo_url: https://github.com/albertandking/msscore
 
 markdown_extensions:
   - pymdownx.highlight:
