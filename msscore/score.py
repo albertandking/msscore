@@ -149,6 +149,6 @@ if __name__ == "__main__":
     score.judge("q_1", q_1)
     score.judge("q_2", q_2)
     score.judge("q_3", q_3)
-    score.result
+    print(score.result)
     msg = score.save()
     print(msg)

@@ -1,16 +1,16 @@
 from datetime import datetime, timedelta
 
+from fastapi import Depends
 from fastapi import status
 from fastapi.exceptions import HTTPException
 from jose import JWTError, jwt
 from sqlalchemy.orm import Session
 
 from msscore import models, schemas
+from msscore.auth import oauth2_scheme
 from msscore.auth import pwd_context, SECRET_KEY, ALGORITHM
 from msscore.database import SessionLocal
 from msscore.schemas import TokenData
-from fastapi import Depends
-from msscore.auth import oauth2_scheme
 
 
 def get_db():
